@@ -1,0 +1,13 @@
+y = f(x)
+x = y
+x_n+1 = f(x_n) = x_n - g(x_n) / g'(x_n)
+
+Start with a guess for x_0.
+Calculate f(x_0)
+This is your new x
+continue to calculate
+This could converge to a fixed-point value.
+Orbit: does not converge to a fixed value. Zeros exist but these fixed-point methods cannot find them.
+
+Brouwer's Fixed Point Method
+s

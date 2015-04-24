@@ -1,0 +1,17 @@
+\section{Interval Bisection}
+Number of iterations necessary to reach a minimum tolerance (tol) level:
+\begin{equation}
+\lceil log_2({{b-a}\over {tol}})\rceil
+\end{equation}
+
+\section{Newton's Method}
+\begin{equation}
+y-y_j=f'(x_i)(x-x_j)
+\end{equation}
+\begin{equation}
+x_{i+1}=x_i-{f(x_i)\over f'(x_i)}
+\end{equation}
+\begin{equation}
+f(x+ s) \approx f( x)+J_f(x)s
+\end{equation}
+\SciLab{Newton's Method}{Newton's Method}{../InClass/newtons_method.sci}

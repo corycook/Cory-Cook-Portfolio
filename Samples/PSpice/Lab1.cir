@@ -1,0 +1,23 @@
+* E:\CSE403\Lab1\Lab1.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Thu Apr 11 13:41:59 2013
+
+
+
+** Analysis setup **
+.OP 
+.STMLIB "Lab1.stl"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Lab1.net"
+.INC "Lab1.als"
+
+
+.probe
+
+
+.END

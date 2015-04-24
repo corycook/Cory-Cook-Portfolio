@@ -1,0 +1,117 @@
+
+**** 05/16/13 23:06:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ * D:\Users\Cory\SkyDrive\Documents\College\CSE403\lab4.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Thu May 16 23:06:28 2013
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "lab4.net"
+
+**** INCLUDING lab4.net ****
+* Schematics Netlist *
+
+
+
+R_R2         0 $N_0001  1k  
+R_R3         $N_0001 $N_0002  1k  
+E_U1         $N_0002 0 VALUE {LIMIT(V($N_0001,$N_0003)*1E6,-15V,+15V)}
+R_R1         $N_0003 $N_0002  1k  
+C_C2         $N_0003 0  1n IC=10V 
+
+**** RESUMING lab4.cir ****
+.INC "lab4.als"
+
+
+
+**** INCLUDING lab4.als ****
+* Schematics Aliases *
+
+.ALIASES
+R_R2            R2(1=0 2=$N_0001 )
+R_R3            R3(1=$N_0001 2=$N_0002 )
+E_U1            U1(OUT=$N_0002 +=$N_0001 -=$N_0003 )
+R_R1            R1(1=$N_0003 2=$N_0002 )
+C_C2            C2(1=$N_0003 2=0 )
+.ENDALIASES
+
+
+**** RESUMING lab4.cir ****
+.probe
+
+
+.END
+
+**** 05/16/13 23:06:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ * D:\Users\Cory\SkyDrive\Documents\College\CSE403\lab4.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)   -7.5000                   ($N_0002)  -15.0000                       
+
+($N_0003)   10.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 05/16/13 23:06:28 *********** Evaluation PSpice (Nov 1999) **************
+
+ * D:\Users\Cory\SkyDrive\Documents\College\CSE403\lab4.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** VOLTAGE-CONTROLLED VOLTAGE SOURCES
+
+
+NAME         E_U1      
+V-SOURCE    -1.500E+01
+I-SOURCE     3.250E-02
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+

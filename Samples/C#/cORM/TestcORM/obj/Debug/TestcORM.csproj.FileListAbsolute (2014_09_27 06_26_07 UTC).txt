@@ -1,0 +1,9 @@
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\TestcORM\obj\Debug\TestcORM.csprojResolveAssemblyReference.cache
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\TestcORM\bin\Debug\TestcORM.dll
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\TestcORM\bin\Debug\TestcORM.pdb
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\TestcORM\bin\Debug\cORM.dll
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\TestcORM\bin\Debug\cORM.pdb
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\TestcORM\obj\Debug\TestcORM.dll
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\TestcORM\obj\Debug\TestcORM.pdb
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\TestcORM\bin\Debug\TestDb.mdf
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\TestcORM\bin\Debug\TestDb_log.ldf

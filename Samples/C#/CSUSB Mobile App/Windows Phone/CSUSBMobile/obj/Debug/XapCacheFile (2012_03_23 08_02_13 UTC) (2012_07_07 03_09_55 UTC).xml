@@ -1,0 +1,18 @@
+<<<<<<< .mine
+﻿<xapCache source="C:\Users\Manuel\Desktop\CSUSBMobile\trunk\Windows Phone\CSUSBMobile\Bin\Debug\CSUSBMobile.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2/22/2012 7:46:46 PM">
+  <file source="C:\Users\Manuel\Desktop\CSUSBMobile\trunk\Windows Phone\CSUSBMobile\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2/22/2012 7:46:46 PM" />
+  <file source="C:\Users\Manuel\Desktop\CSUSBMobile\trunk\Windows Phone\CSUSBMobile\Background.png" archivePath="Background.png" lastWriteTime="2/22/2012 7:39:50 PM" />
+  <file source="C:\Users\Manuel\Desktop\CSUSBMobile\trunk\Windows Phone\CSUSBMobile\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2/22/2012 7:39:50 PM" />
+  <file source="C:\Users\Manuel\Desktop\CSUSBMobile\trunk\Windows Phone\CSUSBMobile\obj\Debug\CSUSB Mobile.dll" archivePath="CSUSB Mobile.dll" lastWriteTime="2/22/2012 7:46:46 PM" />
+  <file source="C:\Users\Manuel\Desktop\CSUSBMobile\trunk\Windows Phone\CSUSBMobile\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2/22/2012 7:39:51 PM" />
+  <file source="C:\Users\Manuel\Desktop\CSUSBMobile\trunk\Windows Phone\CSUSBMobile\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2/22/2012 7:46:46 PM" />
+=======
+﻿<xapCache source="C:\Users\002769610\Desktop\Repository\trunk\Windows Phone\CSUSBMobile\Bin\Debug\CSUSBMobile.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="3/7/2012 8:00:34 PM">
+  <file source="C:\Users\002769610\Desktop\Repository\trunk\Windows Phone\CSUSBMobile\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="3/7/2012 7:29:27 PM" />
+  <file source="C:\Users\002769610\Desktop\Repository\trunk\Windows Phone\CSUSBMobile\Background.png" archivePath="Background.png" lastWriteTime="2/22/2012 7:40:34 PM" />
+  <file source="C:\Users\002769610\Desktop\Repository\trunk\Windows Phone\CSUSBMobile\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2/22/2012 7:40:34 PM" />
+  <file source="C:\Users\002769610\Desktop\Repository\trunk\Windows Phone\CSUSBMobile\obj\Debug\CSUSB Mobile.dll" archivePath="CSUSB Mobile.dll" lastWriteTime="3/7/2012 8:00:34 PM" />
+  <file source="C:\Users\002769610\Desktop\Repository\trunk\Windows Phone\CSUSBMobile\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2/22/2012 7:40:34 PM" />
+  <file source="C:\Users\002769610\Desktop\Repository\trunk\Windows Phone\CSUSBMobile\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="3/7/2012 7:29:27 PM" />
+>>>>>>> .r116
+</xapCache>

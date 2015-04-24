@@ -1,0 +1,25 @@
+\section{Lab 1}
+\subsection{Introduction}
+Stirling’s Approximation: 
+\begin{equation}
+n! \approx \sqrt{2\pi n} ({n \over e})^n
+\end{equation}
+Find the absolute and relative error and evaluate the error as n grows for Stirling’s Approximation. We are given a function $n!$ and an approximation of the function $\sqrt{2\pi n}({n\over e})^n$ and we are tasked with ﬁnding out just how good the approximate function is by evaluating its absolute and relative error.
+
+\subsection{Method}
+We can solve this rather rigorously by testing the functions at each value and comparing them. We would ﬁrst test the accurate function, then its approxi- mation, get the diﬀerence of the values (absolute error) and, ﬁnally, display the absolute error as a percentage of the result (relative error).
+\subsection{Solution}
+I tested the function in SciLab using the following bit of code:
+\SciLab{SciLab Solution}{Lab1}{Lab1.sce}
+Which produced the following output:
+
+p: column 1: 0.9221370, 1. column 2: 1.9190044, 2. column 3: 5.8362096, 6. column 4: 23.506175, 24. column 5: 118.01917, 120. column 6: 710.07818, 720. column 7: 4980.3958, 5040. column 8: 39902.395, 40320. column 9: 359536.87, 362880. column 10: 3598695.6, 3628800.
+
+y: 0.0778630 0.0809956 0.1637904 0.4938249 1.980832 9.9218154 59.604168 417.60455 3343.1272 30104.381
+
+x: 0.0778630 0.0404978 0.0272984 0.0205760 0.0165069 0.0137803 0.0118262 0.0103573 0.0092128 0.0082960
+
+At this point we can input plot(x) into the console to get a graphical rep- resentation of our relative error which, for larger n ranges appears to resemble the graph of 1 x. We can also input plot(y) into the console which returns a graph that increases exponentially or factorially as it were. Having it displayed graphically is nice; however, you can see that for each successive n the x value (relative error) is less than the previous x and each successive y value (absolute error) is greater than its preceding y value.
+
+
+\subsection{Conclusion}

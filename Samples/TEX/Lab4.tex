@@ -1,0 +1,14 @@
+\section{Lab 4}
+\subsection{Introduction}
+I am going to design an optimization method for functions in one dimension. Once I have created and successfully implemented the optimization technique I will verify that it is correct by using another techinique. After I have verified that the solution is correct I will compare it with the set of methods listed in the book and identify which method most resembles the implemented solution.
+\subsection{Method}
+I'm going to design this as if I were a computer programmer. My case is that I have a black box program that takes an input and spits out an output. My goal is to find the minimum output of the program knowing that there is some logical order to the program in the box. In order to have some idea of what the box does I have to sample it. I've decided that the scope of a problem is impossible to determine without sampling large amounts of data. So I'm going to focus on finding a local minimum, even if that minimum point is not the global minimum. I reached this conclusion merely by observing that without any kind of knowledge of the function applied the result can change outside of your current scope. This would be true for a scope of any size.
+The algorithm goes like this:
+\begin{enumerate}
+\item Choose three points. The initial points must contain the minimum.
+\item Find where mid point would lie on the line between the lowest and highest points
+\item evaluate the function at the x-position of the new point.
+\item repeat for three least points until lowest and highest are within tolerance
+\end{enumerate}
+\subsection{Conclusion}
+The method that I had designed turned out to be very slow in comparison to any of the methods described in the book; however, it did manage to find the minimum in most cases. It was a bit like successive parabolic interpolation; however, it was a linear evaluation that did not yeild effective results. I am a bit disappointed by the performance of my design; however, I suppose I shouldn't expect to come up with anything better than Newton or any of the other great mathematicians.

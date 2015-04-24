@@ -1,0 +1,6 @@
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\Lovecooks.Website\NuGetStore\bin\NuGetStore.dll.config
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\Lovecooks.Website\NuGetStore\bin\NuGetStore.dll
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\Lovecooks.Website\NuGetStore\bin\NuGetStore.pdb
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\Lovecooks.Website\NuGetStore\obj\Debug\NuGetStore.csprojResolveAssemblyReference.cache
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\Lovecooks.Website\NuGetStore\obj\Debug\NuGetStore.dll
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\Lovecooks.Website\NuGetStore\obj\Debug\NuGetStore.pdb

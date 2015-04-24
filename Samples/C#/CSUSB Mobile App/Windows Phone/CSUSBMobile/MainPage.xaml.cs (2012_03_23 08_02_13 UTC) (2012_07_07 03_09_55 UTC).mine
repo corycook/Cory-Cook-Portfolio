@@ -1,0 +1,16 @@
+using System;
+using System.Windows;
+using Microsoft.Phone.Controls;
+
+namespace CSUSBMobile {
+    public partial class MainPage : PhoneApplicationPage {
+
+        // Constructor
+        public MainPage() {
+            InitializeComponent();
+
+            string site = "https://tinyurl.com/csusbmobile";
+            webBrowser1.Navigate(new Uri(site, UriKind.Absolute));
+        }
+    }
+}

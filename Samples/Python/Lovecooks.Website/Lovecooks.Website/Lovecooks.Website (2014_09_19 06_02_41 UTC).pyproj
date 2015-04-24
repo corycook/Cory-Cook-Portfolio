@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a6e54fe7-75ec-4aa7-b9f8-47fe725cf880</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>.\Website\run.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Lovecooks.Website</Name>
+    <RootNamespace>Lovecooks.Website</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Website\app\blueprints\account\account.py" />
+    <Compile Include="Website\app\blueprints\account\__init__.py" />
+    <Compile Include="Website\app\blueprints\calendar\__init__.py" />
+    <Compile Include="Website\app\blueprints\manage\__init__.py" />
+    <Compile Include="Website\app\blueprints\pages\default.py" />
+    <Compile Include="Website\app\blueprints\pages\__init__.py" />
+    <Compile Include="Website\app\blueprints\__init__.py" />
+    <Compile Include="Website\app\bootstrap.py" />
+    <Compile Include="Website\app\deps\__init__.py" />
+    <Compile Include="Website\app\lib\authorize.py" />
+    <Compile Include="Website\app\lib\http_application.py" />
+    <Compile Include="Website\app\frontend\templates\__init__.py" />
+    <Compile Include="Website\app\frontend\__init__.py" />
+    <Compile Include="Website\app\lib\user_context.py" />
+    <Compile Include="Website\app\lib\__init__.py" />
+    <Compile Include="Website\app\settings.py" />
+    <Compile Include="Website\app\tests\__init__.py" />
+    <Compile Include="Website\app\__init__.py" />
+    <Compile Include="Website\run.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Website\" />
+    <Folder Include="Website\app\" />
+    <Folder Include="Website\app\blueprints\" />
+    <Folder Include="Website\app\blueprints\account\" />
+    <Folder Include="Website\app\blueprints\calendar\" />
+    <Folder Include="Website\app\blueprints\manage\" />
+    <Folder Include="Website\app\blueprints\pages\" />
+    <Folder Include="Website\app\deps\" />
+    <Folder Include="Website\app\frontend\" />
+    <Folder Include="Website\app\frontend\content\" />
+    <Folder Include="Website\app\frontend\content\account\" />
+    <Folder Include="Website\app\frontend\static\" />
+    <Folder Include="Website\app\frontend\static\bootstrap\" />
+    <Folder Include="Website\app\frontend\static\css\" />
+    <Folder Include="Website\app\frontend\static\fonts\" />
+    <Folder Include="Website\app\frontend\static\img\" />
+    <Folder Include="Website\app\frontend\static\js\" />
+    <Folder Include="Website\app\frontend\static\js\account\" />
+    <Folder Include="Website\app\frontend\templates\" />
+    <Folder Include="Website\app\frontend\templates\account\" />
+    <Folder Include="Website\app\lib\" />
+    <Folder Include="Website\app\tests\" />
+    <Folder Include="Website\app\tmp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Website\.gitignore" />
+    <Content Include="Website\app\frontend\content\.md" />
+    <Content Include="Website\app\frontend\content\about.md" />
+    <Content Include="Website\app\frontend\content\account\login.md" />
+    <Content Include="Website\app\frontend\content\account\register.md" />
+    <Content Include="Website\app\frontend\content\index.md" />
+    <Content Include="Website\app\frontend\content\test.md" />
+    <Content Include="Website\app\frontend\static\.gitkeep" />
+    <Content Include="Website\app\frontend\static\bootstrap\alerts.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\badges.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\bootstrap.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\breadcrumbs.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\button-groups.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\buttons.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\carousel.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\close.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\code.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\component-animations.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\dropdowns.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\forms.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\glyphicons.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\grid.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\input-groups.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\jumbotron.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\labels.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\list-group.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\media.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\mixins.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\modals.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\navbar.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\navs.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\normalize.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\pager.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\pagination.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\panels.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\popovers.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\print.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\progress-bars.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\responsive-utilities.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\scaffolding.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\tables.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\theme.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\thumbnails.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\tooltip.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\type.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\utilities.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\variables.less" />
+    <Content Include="Website\app\frontend\static\bootstrap\wells.less" />
+    <Content Include="Website\app\frontend\static\css\bootstrap-theme.css" />
+    <Content Include="Website\app\frontend\static\css\bootstrap-theme.min.css" />
+    <Content Include="Website\app\frontend\static\css\bootstrap.css" />
+    <Content Include="Website\app\frontend\static\css\bootstrap.min.css" />
+    <Content Include="Website\app\frontend\static\css\main.css" />
+    <Content Include="Website\app\frontend\static\css\normalize.css" />
+    <Content Include="Website\app\frontend\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Website\app\frontend\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Website\app\frontend\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Website\app\frontend\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Website\app\frontend\static\img\logo.png" />
+    <Content Include="Website\app\frontend\static\js\bootstrap.js" />
+    <Content Include="Website\app\frontend\static\js\bootstrap.min.js" />
+    <Content Include="Website\app\frontend\static\js\jquery-1.10.2.min.js" />
+    <Content Include="Website\app\frontend\static\js\jquery-2.0.3.intellisense.js" />
+    <Content Include="Website\app\frontend\static\js\jquery-2.0.3.js" />
+    <Content Include="Website\app\frontend\static\js\jquery-2.0.3.min.js" />
+    <Content Include="Website\app\frontend\static\js\jquery-2.0.3.min.map" />
+    <Content Include="Website\app\frontend\static\js\less-1.5.1.js" />
+    <Content Include="Website\app\frontend\static\js\less-1.5.1.min.js" />
+    <Content Include="Website\app\frontend\static\js\account\login.js" />
+    <Content Include="Website\app\frontend\static\js\main.js" />
+    <Content Include="Website\app\frontend\static\js\modernizr-2.7.1.js" />
+    <Content Include="Website\app\frontend\static\js\plugins.js" />
+    <Content Include="Website\app\frontend\static\js\r.js" />
+    <Content Include="Website\app\frontend\static\js\account\register.js" />
+    <Content Include="Website\app\frontend\static\js\require.js" />
+    <Content Include="Website\app\frontend\static\js\account\seed.js" />
+    <Content Include="Website\app\frontend\templates\account\index.html" />
+    <Content Include="Website\app\frontend\templates\account\login.html" />
+    <Content Include="Website\app\frontend\templates\layout.html" />
+    <Content Include="Website\app\frontend\templates\default.html" />
+    <Content Include="Website\app\tmp\.gitkeep" />
+    <Content Include="Website\README.md" />
+    <Content Include="Website\requirements.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

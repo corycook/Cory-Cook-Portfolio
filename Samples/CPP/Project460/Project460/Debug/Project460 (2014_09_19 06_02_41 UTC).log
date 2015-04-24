@@ -1,0 +1,16 @@
+﻿Build started 4/9/2014 6:56:27 PM.
+     1>Project "C:\Users\Cory\Documents\Visual Studio 2013\Projects\Project460\Project460\Project460.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt VirtualMachine.cpp os.cpp
+         VirtualMachine.cpp
+     1>c:\users\cory\documents\visual studio 2013\projects\project460\project460\virtualmachine.h(32): error C2620: 'instruction::i' : illegal union member; type 'int16' has a user-defined constructor or non-trivial default constructor
+         Generating Code...
+         Compiling...
+         os.cpp
+     1>c:\users\cory\documents\visual studio 2013\projects\project460\project460\virtualmachine.h(32): error C2620: 'instruction::i' : illegal union member; type 'int16' has a user-defined constructor or non-trivial default constructor
+         Generating Code...
+     1>Done Building Project "C:\Users\Cory\Documents\Visual Studio 2013\Projects\Project460\Project460\Project460.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.68

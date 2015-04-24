@@ -1,0 +1,22 @@
+* E:\Users\Cory\SkyDrive\Documents\Programming\PSpice\test.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Apr 21 18:42:00 2014
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "test.net"
+.INC "test.als"
+
+
+.probe
+
+
+.END

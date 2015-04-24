@@ -1,0 +1,5 @@
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\SCORM\SCORM\obj\Debug\SCORM.csprojResolveAssemblyReference.cache
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\SCORM\SCORM\bin\Debug\SCORM.dll
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\SCORM\SCORM\bin\Debug\SCORM.pdb
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\SCORM\SCORM\obj\Debug\SCORM.dll
+C:\Users\Cory\Documents\Visual Studio 2013\Projects\SCORM\SCORM\obj\Debug\SCORM.pdb

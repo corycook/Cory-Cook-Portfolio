@@ -1,0 +1,18 @@
+
+/*
+ * Author: Cory Cook
+ * TermProject - Calculator
+ * Bison (Yacc)
+ * 	int main() - can accept a file as input
+ *		if no file then use stdin
+ *	void yyerror() - returns error message and line number
+ *	S start symbol - begin
+ *	PRG eval stage. evaluates for every newline
+ *	D assign/output - assigns value to variable and/or outputs result
+ *	E +/-  - addition or subtraction is done last
+ *  F *//  - multiplication or division has next priority
+ *  G ^ - exponential operator
+ *  F ()/value - gets value from tokens or evaluates parenthetical
+ * 		values at highest priority.
+ *  symbols holds variables and values.
+ */

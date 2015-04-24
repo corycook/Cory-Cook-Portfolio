@@ -1,0 +1,7 @@
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\cORM\obj\Debug\cORM.csprojResolveAssemblyReference.cache
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\cORM\bin\Debug\cORM.dll
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\cORM\bin\Debug\cORM.pdb
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\cORM\obj\Debug\cORM.dll
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\cORM\obj\Debug\cORM.pdb
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\cORM\bin\Debug\TestDb.mdf
+C:\Users\Cory\documents\visual studio 2013\Projects\cORM\cORM\bin\Debug\TestDb_log.ldf

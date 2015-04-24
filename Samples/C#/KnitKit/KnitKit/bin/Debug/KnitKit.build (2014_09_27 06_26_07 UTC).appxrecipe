@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CORY-SURFACE</Machine>
+    <WindowsUser>Cory</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>01e86311-d765-4f23-8a7d-741e5db5f58f</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\bin\Debug\KnitKit.exe">
+      <PackagePath>KnitKit.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\bin\Debug\GroupedItemsPage.xbf">
+      <PackagePath>GroupedItemsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\bin\Debug\GroupDetailPage.xbf">
+      <PackagePath>GroupDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\bin\Debug\ItemDetailPage.xbf">
+      <PackagePath>ItemDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Cory\Documents\Visual Studio 2013\Projects\KnitKit\KnitKit\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

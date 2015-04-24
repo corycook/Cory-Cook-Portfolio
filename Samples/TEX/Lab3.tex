@@ -1,0 +1,26 @@
+\section{Lab 3}
+\subsection{Introduction}
+We implemented Newton's Method in-class and were able to show a practical application of the algorithm. The Secant Method is the Newton Method that does not need to evaluate the function derivative. In-class we were able to work around the derivative problem by explicitly defining the derivate in the function call; however, if we were creating an application to do this for us we wouldn't leave it up to the user to define the derivative of a function. So, the goal of this lab is to implement the Secant Method to approximate the root of the equation.
+\subsection{Method}
+The algorithm from the book:
+\begin{enumerate}
+\item $x_0, x_1$ = initial guesses
+\item for k = 1, 2, \ldots
+\item ~~~~$x_{k+1} = x_k - f(x_k)(x_k - x_{k-1})/(f(x_k) - f(x_{k-1}))$
+\item end
+\end{enumerate}
+This algorithm has an infinite loop; therefore, we need to define a terminate or a continue condition for the loop. We are trying to find when x equals zero; however, there is no guarantee that our algorithm will ever generate a value that equals zero. Instead we should check that x is within some reasonable range around zero. To do that we should check if the absolute value of x is less than our tolerance level and this would be our terminating condition. Our continuation condition would be absolute value of x is greater than tolerance
+\begin{lstlisting}[caption=algorithm with terminating condition]
+tolerance = some value
+x0, x1 = initial guesses
+while abs(f(xk)) > tolerance
+	xkn = xk - f(xk)*(xk - xkp)/(f(xk) - f(xkp))
+end
+\end{lstlisting}
+Now we have an algorithm that can be reasonably implemented; however, it can still be improved. The question then is can we reasonably approximate a good initial guess. Without straying too far from the Secant algorithm my initial assumption is that the answer is no.
+\subsection{Solution}
+I'm going to want to be able to create a function that can accept a function as an argument, so I'm going to choose either SciLab or JavaScript as my platform. Given the simplicity of displaying the result in SciLab (and the fact that this class is centered around SciLab) I chose to use SciLab as my implementation platform. I am going to generate my initial guess as f(zero).
+\SciLab{Implementation of Secant Method}{SciLab}{Lab3.sci}
+This solution appears to work wonderfully for most functions and not at all for others. It does have the added benefit of not having to specify the derivative of the function in order to calculate; however, it is useless if it doesn't work every time. It looks like it gets trapped into values that are not roots.
+\subsection{Conclusion}
+Secant Method has the benefit of not having to calculate the derivative value for each iteration; however, there is the added complexity of having to track the previous values instead. Also when there are multiple roots it is difficult to tell which value you are going to get as a result.

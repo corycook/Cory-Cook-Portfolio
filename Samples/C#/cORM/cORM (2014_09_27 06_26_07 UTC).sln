@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cORM", "cORM\cORM.csproj", "{ED4C5CF6-4086-450E-97AD-7BFC05ADCCFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestcORM", "TestcORM\TestcORM.csproj", "{875481ED-BD36-4674-8436-11C90F01EC97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED4C5CF6-4086-450E-97AD-7BFC05ADCCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4C5CF6-4086-450E-97AD-7BFC05ADCCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4C5CF6-4086-450E-97AD-7BFC05ADCCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4C5CF6-4086-450E-97AD-7BFC05ADCCFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875481ED-BD36-4674-8436-11C90F01EC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875481ED-BD36-4674-8436-11C90F01EC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875481ED-BD36-4674-8436-11C90F01EC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875481ED-BD36-4674-8436-11C90F01EC97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

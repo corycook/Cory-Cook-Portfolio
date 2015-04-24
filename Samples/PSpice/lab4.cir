@@ -1,0 +1,22 @@
+* D:\Users\Cory\SkyDrive\Documents\College\CSE403\lab4.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Thu May 16 23:06:28 2013
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "lab4.net"
+.INC "lab4.als"
+
+
+.probe
+
+
+.END

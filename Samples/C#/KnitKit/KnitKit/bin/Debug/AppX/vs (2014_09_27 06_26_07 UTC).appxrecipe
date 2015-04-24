@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CORY-SURFACE</Machine>
+    <WindowsUser>Cory</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>01e86311-d765-4f23-8a7d-741e5db5f58f</PackageIdentityName>
+    <RegisteredManifestChecksum>3BE3DF51437449278085BFD43BC3CAF1CFEEA3A43DF19A74563FD99AB2148AA1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>01e86311-d765-4f23-8a7d-741e5db5f58f_1.0.0.0_neutral__226n22w1ra07m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>01e86311-d765-4f23-8a7d-741e5db5f58f_226n22w1ra07m!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>01e86311-d765-4f23-8a7d-741e5db5f58f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Cory</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-03T23:50:44.827</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\bin\Debug\KnitKit.exe">
+      <PackagePath>KnitKit.exe</PackagePath>
+      <Modified>2014-07-03T23:50:43.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2014-07-03T22:23:03.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-07-03T23:50:42.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\bin\Debug\GroupedItemsPage.xbf">
+      <PackagePath>GroupedItemsPage.xbf</PackagePath>
+      <Modified>2014-07-03T23:50:42.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\bin\Debug\GroupDetailPage.xbf">
+      <PackagePath>GroupDetailPage.xbf</PackagePath>
+      <Modified>2014-07-03T23:50:42.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\bin\Debug\ItemDetailPage.xbf">
+      <PackagePath>ItemDetailPage.xbf</PackagePath>
+      <Modified>2014-07-03T23:50:42.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\cory\documents\visual studio 2013\Projects\KnitKit\KnitKit\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-07-03T23:50:44.315</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
